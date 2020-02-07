@@ -5,7 +5,7 @@ defmodule Printex.Mixfile do
     [
       app: :printex,
       version: "1.0.0",
-      elixir: "~> 1.8.0",
+      elixir: "~> 1.9.4",
       build_embedded: Mix.env() == :prod,
       start_permanent: Mix.env() == :prod,
       description: "Console Printing with colors and background colors",
